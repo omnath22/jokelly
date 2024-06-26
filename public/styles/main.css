@@ -1,0 +1,26 @@
+.bg-body-white{
+    background-color: white;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 1rem;
+}
+.btn:hover{
+background-color: rgb(219, 219, 219);
+}
+
+.btn:active {
+    background-color: rgb(219, 219, 219);
+    transform: translateY(4px);
+  }
+
+@media (max-width:400px){
+    .form-inp{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
